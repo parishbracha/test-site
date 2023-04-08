@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        body {
+          background-image: url(images/tree.jpg);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+        </style>
+</head>
+<body>
+<div id="domestica">
+    <audio controls>
+        <source id="sound" src="sounds/1.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<div id="anguifuga">
+</div>
+<div id="henryi">
+</div>
+<div id="proantha">
+</div>
+<div id="tectorum">
+</div>
+<div id="wattii">
+</div>
+<div id="confusa">
+</div>
+<div id="ampliflora">
+</div>
+<div id="japonica">
+</div>
+</body>
+<script>
+    var sound = document.getElementById('sound');
+    var domestica = document.getElementById('domestica')
+    audios = document.querySelectorAll('audio');
+   console.log(audios);
+
+   domestica.addEventListener('mouseover', function() {
+[].forEach.call(audios, function(audio) {
+  // do whatever
+  audio.play();
+});
+}, false);
+
+domestica.addEventListener('mouseleave', function() {
+  sound.pause();
+  sound.currentTime = 0;
+}, false);
+
+</script>
+</html>

@@ -1,0 +1,78 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 400px 200px;
+    grid-template-rows: repeat(3, 200px);
+}
+
+#domestica {
+    height: 12%;
+    width: 6%;
+    position: fixed;
+    cursor: pointer;
+    right: 53%;
+    bottom: 88%;
+}
+#anguifuga {
+    height: 66px;
+    width: 90px;
+    position: fixed;
+    cursor: pointer;
+    right: 52%;
+    bottom: 76%;
+}
+#henryi {
+    height: 65px;
+    width: 90px;
+    position: fixed;
+    cursor: pointer;
+    right: 55%;
+    bottom: 64.5%;
+}
+#proantha {
+    height: 65px;
+    width: 90px;
+    position: fixed;
+    cursor: pointer;
+    right: 53%;
+    bottom: 53%;
+}
+#tectorum {
+    height: 60px;
+    width: 90px;
+    position: fixed;
+    cursor: pointer;
+    right: 53%;
+    bottom: 42%;
+}
+#wattii {
+    height: 60px;
+    width: 90px;
+    position: fixed;
+    cursor: pointer;
+    right: 55%;
+    bottom: 31%;
+}
+#confusa {
+    height: 60px;
+    width: 90px;
+    position: fixed;
+    cursor: pointer;
+    right: 690px;
+    bottom: 120px;
+}
+#ampliflora {
+    height: 63px;
+    width: 90px;
+    position: fixed;
+    cursor: pointer;
+    right: 620px;
+    bottom: 60px;
+}
+#japonica {
+    height: 55px;
+    width: 90px;
+    position: fixed;
+    cursor: pointer;
+    right: 680px;
+    bottom: 1px;
+}
